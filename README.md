@@ -28,26 +28,42 @@ Transform your compute power into real earnings
 - **if you register using cli, file above auto filled, just fill `email.txt` with your email.**
 - `emails.txt`: Store email account 1 line 1 account.
 
-## Usage
+## Usage 
+
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/amumuku/kaisar-bot.git
    cd kaisar-bot
    ```
-2. install dependencies:
+2. 安装依赖:
    ```bash
    npm install
    ```
-3. Register or Login to get Access Token
+3.下面准备好批量邮箱地址
+   ```
+    填充到emails.txt
+   ```
+4. 注册邮件发验证码（新账户），老账户会直接生成token
    ```bash
    npm run register
    ```
-4. Create Extension ID for new account
+5.验证邮件并confirm
+   ```
+   检查上面所有的邮箱的验证邮件并confirm,完成后，
+   再次命令行运行 npm run register 这一步是生成token
+   检查tokens.txt的行数 是否和emails.txt的行数一致
+   ```
+6.根据token数量 生成对应的硬件设备号
    ```bash
    npm run setup
    ```
-5. Run the bot:
+7.修改 proxy.txt 代理的数量和 tokens的数量/email数量保持一致
+8. 运行:
    ```bash
-   npm run start
+   npm run start，如果后台运行请执行 nohup npm run start &
+   ```
+9.查看运行日志
+   ```
+   tail -f -n 1000 nohup.out
    ```
