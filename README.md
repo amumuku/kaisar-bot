@@ -1,4 +1,6 @@
-# KAISAR NETWORK
+# KAISAR NETWORK [去注册 https://zero.kaisar.io](https://zero.kaisar.io/register?ref=uqSUWd326)
+## Depoloy TG communicate channel [TG CHANNEL](https://t.co/2f0y7mCn1K)
+## Depoloy TWITTER communicate channel [X CHANNEL](https://x.com/mooinchain) 
 
 Your compute, your currency
 Transform your compute power into real earnings
