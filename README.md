@@ -29,7 +29,7 @@ Transform your compute power into real earnings
 - `emails.txt`: Store email account 1 line 1 account.
 
 ## Usage 
-
+一个账号，项目方禁止开多IP节点挖矿，至于为什么 不清楚
 
 1. Clone the repository:
    ```bash
