@@ -44,10 +44,13 @@ Transform your compute power into real earnings
    ```
     填充到emails.txt
    ```
-4. 注册邮件发验证码（新账户），老账户会直接生成token
+4. 注册邮件发验证码（新账户），老账户会直接生成token(官方已升级平台，已经失效，走手动注册)
    ```bash
-   npm run register
+   npm run register（废弃）
    ```
+   手动注册后，打开检查窗口，找到请求的令牌token ，复制到token.txt里面
+   <img width="703" alt="image" src="https://github.com/user-attachments/assets/81fc4d8a-d730-4c8a-8180-73660168fc30" />
+
 5.验证邮件并confirm
    ```
    检查上面所有的邮箱的验证邮件并confirm,完成后，
