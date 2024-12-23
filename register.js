@@ -43,7 +43,6 @@ async function registerUser(email, password) {
                 email: email,
                 password: password,
                 referrer:"uqSUWd326"
-
             }
         );
         if (response.data) {
